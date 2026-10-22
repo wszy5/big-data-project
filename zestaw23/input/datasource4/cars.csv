@@ -1,0 +1,201 @@
+car_id,make,model,year,features,category
+CAR0001,Kia,Zeus,2008,"Bluetooth;Backup Camera;Keyless Entry",Sedan
+CAR0002,Ford,Artemis,2015,"Heated Seats;Cruise Control;Sunroof;Air Conditioning",Van
+CAR0003,Lincoln,Hades,2013,"Heated Seats;All-Wheel Drive;Leather Seats;GPS;Keyless Entry",Pickup
+CAR0004,Fiat,Zeus,2019,"Backup Camera;Keyless Entry;GPS;Bluetooth;Air Conditioning",Hatchback
+CAR0005,Dacia,Ares,2002,"GPS;Sunroof;All-Wheel Drive",Convertible
+CAR0006,Honda,Hermes,2019,"Air Conditioning;Bluetooth",Convertible
+CAR0007,Buick,Hera,2003,"Leather Seats;All-Wheel Drive",Hatchback
+CAR0008,Mazda,Zeus,2005,"Air Conditioning;Sunroof;Backup Camera;GPS;Bluetooth",Pickup
+CAR0009,Lincoln,Hestia,2005,"Backup Camera;Keyless Entry;Leather Seats",Van
+CAR0010,Ford,Zeus,2024,"All-Wheel Drive;Cruise Control;GPS;Backup Camera",SUV
+CAR0011,Opel,Hades,2012,"Heated Seats;Backup Camera;Leather Seats;Air Conditioning;All-Wheel Drive",Hatchback
+CAR0012,Volkswagen,Demeter,2005,"Bluetooth;Leather Seats;Cruise Control;All-Wheel Drive;Air Conditioning",Hatchback
+CAR0013,Skoda,Dionysus,2015,"Sunroof;GPS;Bluetooth",Sedan
+CAR0014,Honda,Aphrodite,2010,"Backup Camera;Leather Seats",Pickup
+CAR0015,Fiat,Poseidon,2001,"Heated Seats;GPS;Bluetooth;Leather Seats;Air Conditioning",Sedan
+CAR0016,Renault,Athena,2024,"Bluetooth;All-Wheel Drive;Cruise Control;Backup Camera;Sunroof",Convertible
+CAR0017,Opel,Apollo,2016,"Backup Camera;Heated Seats;All-Wheel Drive;Air Conditioning",Hatchback
+CAR0018,Xpeng,Hera,2003,"Air Conditioning;GPS;Leather Seats",Van
+CAR0019,Mazda,Apollo,2013,"Sunroof;GPS;Backup Camera;Leather Seats;Keyless Entry",Convertible
+CAR0020,Skoda,Poseidon,2018,"All-Wheel Drive;Air Conditioning",Sedan
+CAR0021,Mercedes-Benz,Ares,2014,"Leather Seats;Cruise Control;Keyless Entry;Backup Camera",Pickup
+CAR0022,Alfa-Romeo,Dionysus,2003,"Keyless Entry;Backup Camera;Air Conditioning;All-Wheel Drive",Convertible
+CAR0023,Nissan,Hera,2024,"Keyless Entry;Cruise Control;Sunroof",Hatchback
+CAR0024,Nissan,Hera,2024,"Sunroof;Keyless Entry;All-Wheel Drive;GPS;Backup Camera",Pickup
+CAR0025,Nissan,Athena,2019,"Air Conditioning;Backup Camera;Heated Seats;Bluetooth",Pickup
+CAR0026,Ford,Hera,2018,"All-Wheel Drive;Backup Camera",Convertible
+CAR0027,Citroën,Dionysus,2013,"Leather Seats;Sunroof;Bluetooth",Pickup
+CAR0028,Lincoln,Hades,2000,"Backup Camera;Leather Seats;All-Wheel Drive;Sunroof;Heated Seats",Convertible
+CAR0029,Nissan,Athena,2006,"GPS;Backup Camera;Air Conditioning;Bluetooth;Sunroof",SUV
+CAR0030,Opel,Zeus,2018,"Air Conditioning;Sunroof;Heated Seats;GPS",Hatchback
+CAR0031,Dacia,Hermes,2013,"Cruise Control;Bluetooth;Air Conditioning",SUV
+CAR0032,Opel,Aphrodite,2002,"Bluetooth;Backup Camera;Leather Seats;GPS",Convertible
+CAR0033,Tesla,Hestia,2009,"Keyless Entry;Sunroof;Bluetooth;Cruise Control",Van
+CAR0034,Hyundai,Zeus,2015,"Air Conditioning;Backup Camera",Convertible
+CAR0035,Xpeng,Zeus,2023,"Heated Seats;Cruise Control;Sunroof;Backup Camera;All-Wheel Drive",Pickup
+CAR0036,Opel,Apollo,2010,"Sunroof;Keyless Entry",Pickup
+CAR0037,Toyota,Demeter,2021,"Keyless Entry;Air Conditioning;Sunroof",Pickup
+CAR0038,Dodge,Apollo,2007,"Air Conditioning;Sunroof;Bluetooth;Keyless Entry",SUV
+CAR0039,Xpeng,Zeus,2009,"All-Wheel Drive;Air Conditioning;Leather Seats",Hatchback
+CAR0040,Dacia,Hera,2000,"Leather Seats;Bluetooth;Air Conditioning;Backup Camera;Heated Seats",Van
+CAR0041,Hyundai,Hades,2004,"All-Wheel Drive;Leather Seats;Backup Camera;GPS",Hatchback
+CAR0042,Dacia,Hera,2008,"Heated Seats;Air Conditioning;Cruise Control;Bluetooth",Sedan
+CAR0043,Citroën,Poseidon,2010,"Sunroof;Air Conditioning;Leather Seats",SUV
+CAR0044,Ford,Aphrodite,2001,"Leather Seats;All-Wheel Drive;GPS",SUV
+CAR0045,Ford,Ares,2014,"Sunroof;Keyless Entry;GPS;Backup Camera;All-Wheel Drive",Van
+CAR0046,Dodge,Demeter,2009,"Air Conditioning;Bluetooth;Leather Seats;Cruise Control",SUV
+CAR0047,Dacia,Demeter,2007,"Cruise Control;Backup Camera;Keyless Entry;Sunroof",Convertible
+CAR0048,BMW,Apollo,2017,"Bluetooth;Air Conditioning;All-Wheel Drive;Cruise Control",Sedan
+CAR0049,Fiat,Hephaestus,2020,"All-Wheel Drive;Leather Seats;Bluetooth",Hatchback
+CAR0050,Alfa-Romeo,Hermes,2019,"Bluetooth;Keyless Entry;Air Conditioning;Cruise Control",SUV
+CAR0051,Hyundai,Hera,2012,"Heated Seats;Backup Camera",Sedan
+CAR0052,Seat,Demeter,2004,"Backup Camera;Air Conditioning;Sunroof",Sedan
+CAR0053,Chevy,Hera,2008,"Backup Camera;Keyless Entry",SUV
+CAR0054,Opel,Ares,2015,"Bluetooth;Leather Seats;Sunroof;Keyless Entry",Convertible
+CAR0055,Nio,Hades,2003,"GPS;Backup Camera;Sunroof;Cruise Control",Sedan
+CAR0056,Xpeng,Dionysus,2024,"Keyless Entry;Backup Camera;Heated Seats;Air Conditioning",Convertible
+CAR0057,Citroën,Dionysus,2007,"Cruise Control;Backup Camera;Heated Seats",Pickup
+CAR0058,Chevy,Apollo,2020,"GPS;Backup Camera;Cruise Control",SUV
+CAR0059,Audi,Artemis,2020,"Heated Seats;Keyless Entry",SUV
+CAR0060,Honda,Aphrodite,2021,"Air Conditioning;Cruise Control;Backup Camera",Convertible
+CAR0061,Toyota,Apollo,2016,"All-Wheel Drive;Bluetooth;Keyless Entry",Sedan
+CAR0062,Lincoln,Hades,2002,"Cruise Control;GPS;Keyless Entry",SUV
+CAR0063,Renault,Hestia,2023,"Air Conditioning;Keyless Entry",Hatchback
+CAR0064,BMW,Poseidon,2001,"Leather Seats;Heated Seats;Cruise Control;Air Conditioning",Van
+CAR0065,Lincoln,Apollo,2005,"Bluetooth;Keyless Entry;Sunroof;Heated Seats",Van
+CAR0066,Citroën,Artemis,2017,"All-Wheel Drive;GPS",Hatchback
+CAR0067,Opel,Hera,2005,"Bluetooth;Sunroof",Pickup
+CAR0068,Xpeng,Hera,2007,"Bluetooth;Sunroof;Leather Seats",Hatchback
+CAR0069,Hyundai,Hephaestus,2024,"Backup Camera;Sunroof;Leather Seats;GPS",Hatchback
+CAR0070,Volvo,Aphrodite,2007,"Keyless Entry;All-Wheel Drive;Backup Camera",Pickup
+CAR0071,Honda,Hades,2011,"Leather Seats;GPS;Cruise Control;Keyless Entry",Pickup
+CAR0072,Buick,Dionysus,2006,"All-Wheel Drive;Leather Seats;Heated Seats;Cruise Control;Sunroof",Convertible
+CAR0073,Chevy,Dionysus,2014,"Cruise Control;Heated Seats;Air Conditioning",Hatchback
+CAR0074,Audi,Athena,2022,"Leather Seats;Backup Camera;GPS;Heated Seats;Bluetooth",Pickup
+CAR0075,Fiat,Dionysus,2022,"Leather Seats;Heated Seats",SUV
+CAR0076,Alfa-Romeo,Athena,2009,"Leather Seats;Backup Camera;All-Wheel Drive;Keyless Entry;Air Conditioning",Van
+CAR0077,Seat,Hephaestus,2000,"Cruise Control;Heated Seats;Sunroof;GPS;Backup Camera",Convertible
+CAR0078,Toyota,Poseidon,2003,"Bluetooth;Cruise Control;Heated Seats;Sunroof",Hatchback
+CAR0079,Dodge,Apollo,2002,"Leather Seats;All-Wheel Drive;Cruise Control",Hatchback
+CAR0080,Audi,Hera,2020,"Bluetooth;Heated Seats;Sunroof;All-Wheel Drive",SUV
+CAR0081,Xpeng,Artemis,2021,"Sunroof;Air Conditioning;All-Wheel Drive",Pickup
+CAR0082,Skoda,Dionysus,2022,"Sunroof;Keyless Entry",Van
+CAR0083,Hyundai,Artemis,2006,"Backup Camera;Bluetooth;Cruise Control",Hatchback
+CAR0084,Buick,Dionysus,2005,"Heated Seats;GPS",Convertible
+CAR0085,Mercedes-Benz,Poseidon,2000,"Backup Camera;Keyless Entry;Heated Seats;Air Conditioning;All-Wheel Drive",SUV
+CAR0086,Nissan,Apollo,2002,"Air Conditioning;Keyless Entry;Cruise Control;All-Wheel Drive;Bluetooth",Pickup
+CAR0087,Volvo,Hades,2021,"Keyless Entry;Air Conditioning",Van
+CAR0088,Buick,Hades,2006,"Sunroof;Bluetooth;Backup Camera",Sedan
+CAR0089,Kia,Hestia,2021,"Cruise Control;Heated Seats;All-Wheel Drive;Bluetooth;Sunroof",Van
+CAR0090,Dacia,Demeter,2019,"Sunroof;Keyless Entry;Backup Camera;GPS;Leather Seats",SUV
+CAR0091,Nio,Poseidon,2016,"Cruise Control;Backup Camera;Keyless Entry;Heated Seats",Pickup
+CAR0092,Peugeot,Hades,2024,"Bluetooth;GPS",Pickup
+CAR0093,Chevy,Demeter,2024,"Bluetooth;Air Conditioning;Sunroof",Hatchback
+CAR0094,Ford,Hera,2022,"Backup Camera;Bluetooth;Cruise Control;Leather Seats;GPS",Sedan
+CAR0095,Skoda,Hephaestus,2001,"All-Wheel Drive;Heated Seats;Air Conditioning;Backup Camera;Cruise Control",Sedan
+CAR0096,Lancia,Hera,2007,"Leather Seats;Air Conditioning;Cruise Control",Van
+CAR0097,Citroën,Aphrodite,2002,"Backup Camera;GPS;Cruise Control",Hatchback
+CAR0098,Lancia,Hades,2015,"Leather Seats;Backup Camera;Cruise Control;All-Wheel Drive;Keyless Entry",Van
+CAR0099,Tesla,Demeter,2009,"All-Wheel Drive;Leather Seats;Backup Camera",Hatchback
+CAR0100,Kia,Poseidon,2019,"Backup Camera;Cruise Control",Convertible
+CAR0101,BMW,Artemis,2001,"Heated Seats;Backup Camera;Keyless Entry",Sedan
+CAR0102,Volkswagen,Ares,2014,"All-Wheel Drive;Heated Seats;Cruise Control;Keyless Entry;Air Conditioning",Hatchback
+CAR0103,Lincoln,Hermes,2022,"Keyless Entry;Cruise Control;Air Conditioning",Convertible
+CAR0104,Renault,Hephaestus,2022,"Cruise Control;Backup Camera;Bluetooth;GPS",Convertible
+CAR0105,Hyundai,Hermes,2012,"Leather Seats;Keyless Entry;Air Conditioning",Van
+CAR0106,Xpeng,Dionysus,2020,"Backup Camera;Cruise Control;GPS;Keyless Entry",Pickup
+CAR0107,Kia,Hephaestus,2008,"Leather Seats;Keyless Entry",Convertible
+CAR0108,Dacia,Hephaestus,2020,"Leather Seats;Bluetooth;Sunroof;Heated Seats",SUV
+CAR0109,Mazda,Artemis,2016,"Bluetooth;All-Wheel Drive;Cruise Control",SUV
+CAR0110,Citroën,Hermes,2000,"GPS;Backup Camera;Cruise Control",Sedan
+CAR0111,Lancia,Poseidon,2007,"Bluetooth;Heated Seats",Van
+CAR0112,Mercedes-Benz,Hermes,2015,"All-Wheel Drive;Leather Seats",Pickup
+CAR0113,Volkswagen,Athena,2002,"Leather Seats;Keyless Entry;Backup Camera",Convertible
+CAR0114,Peugeot,Hephaestus,2003,"Keyless Entry;Cruise Control",Hatchback
+CAR0115,Chevy,Zeus,2019,"Keyless Entry;Cruise Control;Sunroof;Backup Camera;Bluetooth",Sedan
+CAR0116,Dodge,Hermes,2011,"Air Conditioning;All-Wheel Drive",Sedan
+CAR0117,Kia,Apollo,2003,"Backup Camera;Air Conditioning;Sunroof",SUV
+CAR0118,Skoda,Hades,2017,"Air Conditioning;Bluetooth;GPS;All-Wheel Drive",Hatchback
+CAR0119,Audi,Zeus,2023,"Sunroof;Bluetooth;Heated Seats",Convertible
+CAR0120,Ford,Dionysus,2017,"Bluetooth;Sunroof",Sedan
+CAR0121,BMW,Athena,2004,"Backup Camera;All-Wheel Drive;Cruise Control;Sunroof",Convertible
+CAR0122,Volvo,Artemis,2009,"Keyless Entry;GPS;Sunroof;Heated Seats",Hatchback
+CAR0123,Seat,Zeus,2011,"Cruise Control;Heated Seats",Convertible
+CAR0124,Opel,Hestia,2002,"Air Conditioning;Leather Seats;Bluetooth",SUV
+CAR0125,Ford,Dionysus,2002,"Air Conditioning;GPS",Pickup
+CAR0126,Volvo,Demeter,2023,"Air Conditioning;All-Wheel Drive;Bluetooth;Leather Seats",Hatchback
+CAR0127,Opel,Hephaestus,2008,"Cruise Control;Leather Seats;Bluetooth;Backup Camera",Hatchback
+CAR0128,Alfa-Romeo,Hera,2022,"All-Wheel Drive;Bluetooth;Keyless Entry;Leather Seats;GPS",Sedan
+CAR0129,Ford,Zeus,2018,"All-Wheel Drive;Air Conditioning;Keyless Entry;Heated Seats;GPS",Convertible
+CAR0130,Alfa-Romeo,Hephaestus,2002,"GPS;Keyless Entry;Backup Camera",SUV
+CAR0131,Fiat,Artemis,2002,"Leather Seats;Sunroof;Air Conditioning",Hatchback
+CAR0132,Dodge,Aphrodite,2009,"Cruise Control;Leather Seats;Keyless Entry;Backup Camera",Van
+CAR0133,Ford,Apollo,2017,"Keyless Entry;Heated Seats;All-Wheel Drive",Van
+CAR0134,Renault,Ares,2021,"Heated Seats;GPS;Backup Camera;Sunroof",Convertible
+CAR0135,Toyota,Zeus,2020,"All-Wheel Drive;Heated Seats;Sunroof;GPS;Backup Camera",Hatchback
+CAR0136,Dodge,Dionysus,2018,"Bluetooth;Backup Camera",Van
+CAR0137,Xpeng,Poseidon,2022,"Sunroof;Cruise Control;Backup Camera;Heated Seats;GPS",Pickup
+CAR0138,Skoda,Hestia,2009,"Backup Camera;Cruise Control;Sunroof;Heated Seats;All-Wheel Drive",Van
+CAR0139,Nio,Hera,2023,"Cruise Control;Air Conditioning;Keyless Entry;Heated Seats",Van
+CAR0140,Opel,Hermes,2018,"Bluetooth;Backup Camera;Cruise Control;GPS",SUV
+CAR0141,Dodge,Ares,2018,"Keyless Entry;Heated Seats",SUV
+CAR0142,Audi,Poseidon,2010,"Backup Camera;Leather Seats",Pickup
+CAR0143,Volkswagen,Hephaestus,2018,"GPS;All-Wheel Drive;Cruise Control",SUV
+CAR0144,Seat,Athena,2020,"GPS;All-Wheel Drive;Backup Camera;Keyless Entry;Heated Seats",SUV
+CAR0145,Chevy,Hephaestus,2007,"Backup Camera;Keyless Entry;Leather Seats;All-Wheel Drive;Bluetooth",Pickup
+CAR0146,Mercedes-Benz,Ares,2019,"Air Conditioning;Leather Seats",Hatchback
+CAR0147,Toyota,Artemis,2005,"Cruise Control;GPS;Air Conditioning;Bluetooth",Pickup
+CAR0148,Opel,Apollo,2022,"Keyless Entry;Bluetooth;Air Conditioning;All-Wheel Drive",Hatchback
+CAR0149,Lancia,Dionysus,2016,"Leather Seats;Backup Camera;GPS;Bluetooth",Convertible
+CAR0150,Chevy,Hera,2012,"GPS;All-Wheel Drive;Keyless Entry;Sunroof;Heated Seats",Sedan
+CAR0151,Xpeng,Hades,2006,"Sunroof;All-Wheel Drive;Backup Camera;Heated Seats",SUV
+CAR0152,Opel,Hermes,2012,"Air Conditioning;Keyless Entry;Cruise Control;All-Wheel Drive",SUV
+CAR0153,Dacia,Demeter,2007,"Heated Seats;GPS",Van
+CAR0154,Kia,Hera,2003,"Bluetooth;Air Conditioning;GPS;All-Wheel Drive;Heated Seats",Convertible
+CAR0155,Mazda,Hera,2016,"Cruise Control;Sunroof;Backup Camera;Leather Seats;GPS",Van
+CAR0156,Seat,Hephaestus,2009,"Heated Seats;Sunroof;Bluetooth;Leather Seats",Hatchback
+CAR0157,Alfa-Romeo,Ares,2018,"Cruise Control;Air Conditioning;Sunroof",Hatchback
+CAR0158,Volkswagen,Poseidon,2007,"GPS;Backup Camera;Bluetooth",Sedan
+CAR0159,Kia,Dionysus,2002,"Sunroof;Leather Seats;Keyless Entry;Cruise Control;GPS",SUV
+CAR0160,Audi,Hera,2008,"Cruise Control;Backup Camera;Keyless Entry;Sunroof",SUV
+CAR0161,Ford,Artemis,2019,"Heated Seats;Air Conditioning;Cruise Control;Keyless Entry",Van
+CAR0162,Kia,Ares,2024,"Air Conditioning;Cruise Control",SUV
+CAR0163,Citroën,Artemis,2018,"Air Conditioning;GPS",Sedan
+CAR0164,Ford,Zeus,2019,"Air Conditioning;Keyless Entry;Bluetooth;Cruise Control;All-Wheel Drive",Hatchback
+CAR0165,Opel,Aphrodite,2009,"Leather Seats;Heated Seats;Cruise Control;All-Wheel Drive",Pickup
+CAR0166,Nio,Hera,2018,"Heated Seats;All-Wheel Drive",Convertible
+CAR0167,Buick,Zeus,2020,"Keyless Entry;Heated Seats;All-Wheel Drive;Backup Camera",Hatchback
+CAR0168,Alfa-Romeo,Dionysus,2013,"Leather Seats;Sunroof",Van
+CAR0169,Renault,Zeus,2023,"Backup Camera;Leather Seats;GPS",Sedan
+CAR0170,Citroën,Athena,2019,"All-Wheel Drive;Sunroof;Backup Camera;Bluetooth;Leather Seats",Van
+CAR0171,Chevy,Hades,2002,"Heated Seats;Leather Seats",Sedan
+CAR0172,Tesla,Artemis,2011,"All-Wheel Drive;Sunroof;Air Conditioning;Cruise Control;Backup Camera",Convertible
+CAR0173,Ford,Hestia,2005,"Sunroof;All-Wheel Drive;Heated Seats;Cruise Control",Convertible
+CAR0174,Audi,Hestia,2000,"Heated Seats;Backup Camera;All-Wheel Drive;Bluetooth",Convertible
+CAR0175,Volvo,Hephaestus,2023,"Leather Seats;Bluetooth;All-Wheel Drive;GPS;Keyless Entry",Convertible
+CAR0176,Chevy,Poseidon,2017,"GPS;Backup Camera;Sunroof",Sedan
+CAR0177,Buick,Demeter,2019,"Bluetooth;Keyless Entry;Backup Camera;All-Wheel Drive",Hatchback
+CAR0178,Audi,Apollo,2002,"Bluetooth;Sunroof;Cruise Control;Keyless Entry",Pickup
+CAR0179,Tesla,Demeter,2015,"Keyless Entry;GPS;Backup Camera;Heated Seats;Sunroof",Convertible
+CAR0180,Citroën,Hephaestus,2021,"GPS;Sunroof;All-Wheel Drive",Pickup
+CAR0181,Nissan,Hestia,2011,"Backup Camera;Leather Seats;Air Conditioning;Sunroof;Bluetooth",Hatchback
+CAR0182,Fiat,Hera,2017,"Backup Camera;All-Wheel Drive;Leather Seats;Bluetooth",Pickup
+CAR0183,Citroën,Apollo,2011,"Cruise Control;Backup Camera;Leather Seats",Sedan
+CAR0184,Nio,Aphrodite,2005,"Heated Seats;Sunroof;Leather Seats",Pickup
+CAR0185,Nio,Demeter,2007,"Leather Seats;Sunroof;Bluetooth;Heated Seats;All-Wheel Drive",Pickup
+CAR0186,Lancia,Hades,2015,"Heated Seats;All-Wheel Drive;Cruise Control",Hatchback
+CAR0187,Opel,Poseidon,2009,"Leather Seats;Backup Camera;Air Conditioning;Heated Seats",Convertible
+CAR0188,Renault,Zeus,2003,"All-Wheel Drive;Leather Seats;Bluetooth;Heated Seats",Convertible
+CAR0189,Kia,Hermes,2016,"All-Wheel Drive;Cruise Control;Sunroof",SUV
+CAR0190,BMW,Poseidon,2020,"Backup Camera;Keyless Entry;GPS",SUV
+CAR0191,Lancia,Hades,2014,"Keyless Entry;Cruise Control",Sedan
+CAR0192,Dodge,Artemis,2016,"Bluetooth;Backup Camera;Air Conditioning;Heated Seats;Cruise Control",Hatchback
+CAR0193,Nio,Demeter,2012,"Bluetooth;All-Wheel Drive;Heated Seats",Sedan
+CAR0194,BMW,Dionysus,2009,"Cruise Control;Bluetooth;Sunroof;GPS;Keyless Entry",Pickup
+CAR0195,Lincoln,Poseidon,2006,"Keyless Entry;Leather Seats;All-Wheel Drive;Backup Camera",SUV
+CAR0196,Lincoln,Athena,2014,"GPS;Backup Camera;Cruise Control",Van
+CAR0197,Mazda,Aphrodite,2010,"Heated Seats;Bluetooth",Van
+CAR0198,Toyota,Hermes,2013,"Cruise Control;Heated Seats;Air Conditioning",SUV
+CAR0199,Ford,Ares,2022,"Backup Camera;GPS",Convertible
+CAR0200,Alfa-Romeo,Poseidon,2024,"Cruise Control;Heated Seats",Pickup
