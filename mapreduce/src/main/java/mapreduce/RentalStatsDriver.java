@@ -23,6 +23,9 @@ public class RentalStatsDriver extends Configured implements Tool {
         if (args.length == 2) {
             inputPath = args[0];
             outputPath = args[1];
+        } else if (args.length == 3) {
+            inputPath = args[1];
+            outputPath = args[2];
         } else if (args.length != 0) {
             System.err.println("Usage: RentalStatsDriver [<input_path> <output_path>]");
             return 1;
