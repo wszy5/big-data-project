@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+rm -rf bin rental-stats.jar
 mkdir -p bin
 
 HADOOP_CP=$(hadoop classpath)
