@@ -52,7 +52,8 @@ Dla każdego pojedynczego elementu wyposażenia (`feature`) i każdego roku wypo
 ### Krok A: Tabele zewnętrzne (EXTERNAL TABLE)
 Tworzymy dwie tabele, które nie kopiują fizycznie plików do magazynu wewnętrznego Hive, lecz nakładają schemat na dane istniejące w HDFS:
 - `rental_stats`: czyta bezpośrednio katalog wyjściowy z MapReduce (`ROW FORMAT DELIMITED FIELDS TERMINATED BY ','`).
-- `cars_raw`: czyta plik `cars.csv` za pomocą wbudowanego `RegexSerDe`, który za pomocą wyrażenia regularnego poprawnie oddziela kolumny i usuwa cudzysłowy z pola wyposażenia, oraz pomija nagłówek (`skip.header.line.count=1`). Nie wymaga zewnętrznych bibliotek JAR.
+- `cars_raw`: czyta plik `cars.csv` za pomocą standardowego formatu tekstowego (`ROW FORMAT DELIMITED FIELDS TERMINATED BY ','`).
+- Cudzysłowy wokół wyposażenia są usuwane w locie w zapytaniu SQL (`regexp_replace(features, '"', '')`), a nagłówek pliku jest bezpiecznie odfiltrowywany (`WHERE trim(car_id) != 'car_id'`). To najbardziej niezawodne podejście w środowiskach rozproszonych, niewymagające żadnych zewnętrznych bibliotek SerDe.
 
 ### Krok B: Rozbicie listy wyposażenia (LATERAL VIEW explode)
 Kolumna `features` zawiera string np. `"GPS;Sunroof;Bluetooth"`.

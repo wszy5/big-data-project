@@ -21,13 +21,10 @@ CREATE EXTERNAL TABLE cars_raw (
     features STRING,
     category STRING
 )
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.RegexSerDe'
-WITH SERDEPROPERTIES (
-    'input.regex' = '([^,]*),([^,]*),([^,]*),([^,]*),"?([^"]*)"?,([^,]*)'
-)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
 STORED AS TEXTFILE
-LOCATION '/user/hadoop/input/datasource4'
-TBLPROPERTIES ("skip.header.line.count"="1");
+LOCATION '/user/hadoop/input/datasource4';
 
 DROP TABLE IF EXISTS hive_result;
 
@@ -40,12 +37,13 @@ WITH joined AS (
         r.completed_ratio
     FROM (
         SELECT
-            car_id,
+            trim(car_id) AS car_id,
             trim(feature) AS feature
         FROM cars_raw
-        LATERAL VIEW explode(split(features, ';')) ft AS feature
+        LATERAL VIEW explode(split(regexp_replace(features, '"', ''), ';')) ft AS feature
+        WHERE trim(car_id) != 'car_id'
     ) c
-    JOIN rental_stats r ON c.car_id = r.car_id
+    JOIN rental_stats r ON c.car_id = trim(r.car_id)
 ),
 grouped AS (
     SELECT
