@@ -33,15 +33,19 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 DROP TABLE IF EXISTS hive_result;
 
 CREATE TABLE hive_result AS
-WITH exploded AS (
+WITH joined AS (
     SELECT
-        c.car_id,
-        trim(feature) AS feature,
+        c.feature,
         r.rental_year,
         r.total_rentals,
         r.completed_ratio
-    FROM cars_raw c
-    LATERAL VIEW explode(split(c.features, ';')) ft AS feature
+    FROM (
+        SELECT
+            car_id,
+            trim(feature) AS feature
+        FROM cars_raw
+        LATERAL VIEW explode(split(features, ';')) ft AS feature
+    ) c
     JOIN rental_stats r ON c.car_id = r.car_id
 ),
 grouped AS (
@@ -50,7 +54,7 @@ grouped AS (
         rental_year,
         ROUND(AVG(total_rentals), 2) AS feature_year_avg_rentals,
         ROUND(AVG(completed_ratio), 4) AS feature_year_avg_completed_ratio
-    FROM exploded
+    FROM joined
     GROUP BY feature, rental_year
 )
 SELECT
