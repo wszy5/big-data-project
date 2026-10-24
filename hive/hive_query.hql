@@ -21,10 +21,9 @@ CREATE EXTERNAL TABLE cars_raw (
     features STRING,
     category STRING
 )
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.RegexSerDe'
 WITH SERDEPROPERTIES (
-    "separatorChar" = ",",
-    "quoteChar" = "\""
+    'input.regex' = '([^,]*),([^,]*),([^,]*),([^,]*),"?([^"]*)"?,([^,]*)'
 )
 STORED AS TEXTFILE
 LOCATION '/user/hadoop/input/datasource4'
