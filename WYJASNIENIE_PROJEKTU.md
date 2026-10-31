@@ -84,19 +84,54 @@ Na maszynie wirtualnej Debian:
 docker compose exec -it master bash
 ```
 
-## 2. Uruchomienie Etapu 1 (MapReduce)
+## 2. Uruchomienie (do wyboru):
+
+### Opcja A: Cały projekt na raz (Etap 1 + Etap 2)
+```bash
+cd ~/big-data-project
+chmod +x run_all.sh mapreduce/run.sh hive/run.sh
+./run_all.sh
+```
+
+### Opcja B: Uruchamianie etapów pojedynczo (do prezentacji)
+**Etap 1 (MapReduce):**
 ```bash
 cd ~/big-data-project/mapreduce
-chmod +x *.sh
-./run_all.sh
+chmod +x run.sh
+./run.sh
 ```
 
-## 3. Uruchomienie Etapu 2 (Hive)
+**Etap 2 (Hive):**
 ```bash
 cd ~/big-data-project/hive
-chmod +x *.sh
-./run_all.sh
+chmod +x run.sh
+./run.sh
 ```
 
-Wyniki Hive zostaną wyświetlone na konsoli oraz automatycznie wyeksportowane do pliku:
-`hive/result/hive_output.csv`
+Wyniki obu etapów są automatycznie wyświetlane w terminalu oraz zapisywane lokalnie:
+- MapReduce: `mapreduce/result/`
+- Hive: `hive/result/hive_output.csv`
+
+---
+
+# Struktura projektu
+```
+big-data-project/
+├── run_all.sh                  # Uruchamia cały projekt od zera do końca
+├── WYJASNIENIE_PROJEKTU.md     # Pełny opis i kompendium wiedzy do obrony
+├── mapreduce/
+│   ├── run.sh                  # Kompiluje JAR, wgrywa dane do HDFS, odpala job i pokazuje wynik
+│   ├── pom.xml                 # Plik projektu Maven dla środowisk IDE
+│   └── src/main/java/mapreduce/
+│       ├── RentalCombiner.java
+│       ├── RentalMapper.java
+│       ├── RentalReducer.java
+│       └── RentalStatsDriver.java
+├── hive/
+│   ├── run.sh                  # Wgrywa cars.csv do HDFS, odpala beeline i eksportuje CSV
+│   └── hive_query.hql          # Zapytanie analityczne HQL
+└── zestaw23/
+    └── input/
+        ├── datasource1/        # 100 plików rentals*.csv
+        └── datasource4/        # cars.csv
+```
